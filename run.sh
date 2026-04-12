@@ -8,9 +8,9 @@ else
 fi
 
 # build
-$DOCKER build -t ispr-lab .
+$DOCKER build -t gdl-lab .
 # run
 $DOCKER run -p 8888:8888 \
     -v $(pwd)/notebooks:/app/notebooks:z \
     -v $(pwd)/_static:/app/_static:z \
-    ispr-lab
+    gdl-lab
