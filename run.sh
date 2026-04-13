@@ -10,7 +10,7 @@ fi
 # build
 $DOCKER build -t gdl-lab .
 # run
-$DOCKER run -p 8888:8888 \
+$DOCKER run --rm -p 8888:8888 \
     -v $(pwd)/notebooks:/app/notebooks:z \
     -v $(pwd)/_static:/app/_static:z \
     gdl-lab

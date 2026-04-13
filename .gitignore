@@ -1,5 +1,6 @@
 # Data
-notebooks/torch/data/
+notebooks/data/
+notebooks/model_weights.pt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
