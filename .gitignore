@@ -1,6 +1,8 @@
 # Data
 notebooks/data/
 notebooks/model_weights.pt
+notebooks/my_model.keras
+notebooks/logs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
